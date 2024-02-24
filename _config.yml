@@ -38,7 +38,7 @@ features                                  :
 
   - title                                 : Real-Time Spotify Friend Activity
     description                           : Stay connected with your friends in real-time. See what they're listening to, right as it happens. Our app automatically refreshes and animates changes, providing a seamless experience.
-    fontawesome_icon_name                 : arrows-rotate
+    fontawesome_icon_name                 : rotate-right
     
   - title                                 : Intuitive Widgets
     description                           : Access your Spotify friend activity directly from your home screen with our intuitive widgets. Stay updated without even opening the app.
@@ -50,11 +50,15 @@ features                                  :
 
   - title                                 : Rich Visuals with Album Art and User Photos
     description                           : Immerse yourself in the music world with rich visuals. Our app displays album art and user photos, adding a visual dimension to your Spotify friend activity.
-    fontawesome_icon_name                 : wand-magic-sparkles
+    fontawesome_icon_name                 : wand-sparkles
 
   - title                                 : Ad-Free Experience
-    description                           : Enjoy an uninterrupted experience with our ad-free app. Say goodbye to annoying ads and focus solely on connecting with your friends and enjoying music..
+    description                           : Enjoy an uninterrupted experience with our ad-free app. Say goodbye to annoying ads and focus solely on connecting with your friends and enjoying music.
     fontawesome_icon_name                 : heart
+
+  - title                                 : 30,000+ Downloads
+    description                           : What are you waiting for? Download now!
+    fontawesome_icon_name                 : download
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
