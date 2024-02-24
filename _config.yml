@@ -36,41 +36,25 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Real-Time Spotify Friend Activity
+    description                           : Stay connected with your friends in real-time. See what they're listening to, right as it happens. Our app automatically refreshes and animates changes, providing a seamless experience.
+    fontawesome_icon_name                 : arrows-rotate
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : Intuitive Widgets
+    description                           : Access your Spotify friend activity directly from your home screen with our intuitive widgets. Stay updated without even opening the app.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Sleek and Smooth Design
+    description                           : Experience a sleek and modern design crafted with SwiftUI. Our app is optimized for smooth performance, providing a delightful user experience.
+    fontawesome_icon_name                 : brush
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Rich Visuals with Album Art and User Photos
+    description                           : Immerse yourself in the music world with rich visuals. Our app displays album art and user photos, adding a visual dimension to your Spotify friend activity.
+    fontawesome_icon_name                 : wand-magic-sparkles
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Ad-Free Experience
+    description                           : Enjoy an uninterrupted experience with our ad-free app. Say goodbye to annoying ads and focus solely on connecting with your friends and enjoying music..
+    fontawesome_icon_name                 : heart
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
