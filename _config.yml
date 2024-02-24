@@ -38,7 +38,7 @@ features                                  :
 
   - title                                 : Real-Time Spotify Friend Activity
     description                           : Stay connected with your friends in real-time. See what they're listening to, right as it happens. Our app automatically refreshes and animates changes, providing a seamless experience.
-    fontawesome_icon_name                 : repeat
+    fontawesome_icon_name                 : spinner
     
   - title                                 : Intuitive Widgets
     description                           : Access your Spotify friend activity directly from your home screen with our intuitive widgets. Stay updated without even opening the app.
