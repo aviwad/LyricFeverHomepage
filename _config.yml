@@ -1,8 +1,8 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Lyric Fever                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1636288237                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -11,9 +11,9 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Lyric Fever                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Your Friend Activity, On The Go.
+app_description                           : Spotify Lyrics in the menubar.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,19 +36,19 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Real-Time Spotify Friend Activity
+  - title                                 : Real-Time Spotify Lyrics
     description                           : Stay connected with your friends in real-time. See what they're listening to, right as it happens. Our app automatically refreshes and animates changes, providing a seamless experience.
     fontawesome_icon_name                 : spinner
     
-  - title                                 : Intuitive Widgets
+  - title                                 : Just Install And Use
     description                           : Access your Spotify friend activity directly from your home screen with our intuitive widgets. Stay updated without even opening the app.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Sleek and Smooth Design
+  - title                                 : Auto-Downloads Lyrics
     description                           : Experience a sleek and modern design crafted with SwiftUI. Our app is optimized for smooth performance, providing a delightful user experience.
     fontawesome_icon_name                 : brush
 
-  - title                                 : Rich Visuals with Album Art and User Photos
+  - title                                 : No Need To Set Anything Up
     description                           : Immerse yourself in the music world with rich visuals. Our app displays album art and user photos, adding a visual dimension to your Spotify friend activity.
     fontawesome_icon_name                 : palette
 
@@ -56,9 +56,9 @@ features                                  :
     description                           : Enjoy an uninterrupted experience with our ad-free app. Say goodbye to annoying ads and focus solely on connecting with your friends and enjoying music.
     fontawesome_icon_name                 : heart
 
-  - title                                 : 30,000+ Downloads
-    description                           : What are you waiting for? Download now!
-    fontawesome_icon_name                 : download
+  - title                                 : 10 Daily users
+    description                           : What are you waiting for? You could be the 11th!
+    fontawesome_icon_name                 : Download Now
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
