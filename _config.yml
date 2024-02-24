@@ -37,28 +37,28 @@ mastodon_link                             :
 features                                  :
 
   - title                                 : Real-Time Spotify Lyrics
-    description                           : Stay connected with your friends in real-time. See what they're listening to, right as it happens. Our app automatically refreshes and animates changes, providing a seamless experience.
-    fontawesome_icon_name                 : spinner
+    description                           : Stay in tune with your music, instantly view the lyrics of the currently playing song on Spotify right from your macOS menubar.
+    fontawesome_icon_name                 : music
     
-  - title                                 : Just Install And Use
-    description                           : Access your Spotify friend activity directly from your home screen with our intuitive widgets. Stay updated without even opening the app.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Seamless Integration
+    description                           : Automatically syncs with Spotify, so you never miss a beat or lyric.
+    fontawesome_icon_name                 : wifi
 
-  - title                                 : Auto-Downloads Lyrics
-    description                           : Experience a sleek and modern design crafted with SwiftUI. Our app is optimized for smooth performance, providing a delightful user experience.
+  - title                                 : Minimalist Design
+    description                           : Fits seamlessly into your macOS menubar without clutter, ensuring a distraction-free experience.
     fontawesome_icon_name                 : brush
 
-  - title                                 : No Need To Set Anything Up
-    description                           : Immerse yourself in the music world with rich visuals. Our app displays album art and user photos, adding a visual dimension to your Spotify friend activity.
+  - title                                 : Customizable Display Options
+    description                           : Adjust font size, color themes, and display settings for optimal readability.
     fontawesome_icon_name                 : palette
 
-  - title                                 : Ad-Free Experience
-    description                           : Enjoy an uninterrupted experience with our ad-free app. Say goodbye to annoying ads and focus solely on connecting with your friends and enjoying music.
+  - title                                 : Automatic Downloads
+    description                           : Enjoy an uninterrupted experience with automatic downloads. Save on network and battery.
     fontawesome_icon_name                 : heart
 
-  - title                                 : 10 Daily users
-    description                           : What are you waiting for? You could be the 11th!
-    fontawesome_icon_name                 : Download Now
+  - title                                 : Privacy-focused
+    description                           : No personal information is collected or stored, ensuring your privacy while enjoying your music.
+    fontawesome_icon_name                 : lock
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
