@@ -510,6 +510,8 @@ nav > ul li a:active {
 
 	.videoWrapper {
 		position: relative;
+		justify-content: center;
+		display: flex;
 	}
 	
 	.videoWrapper > video {
