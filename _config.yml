@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Lyric Fever                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Spotify Lyrics in the menubar.
+app_description                           : Real-time Spotify Lyrics in the menubar.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -49,11 +49,11 @@ features                                  :
     fontawesome_icon_name                 : brush
 
   - title                                 : Customizable Display Options
-    description                           : Adjust font size, color themes, and display settings for optimal readability.
+    description                           : Adjust lyric truncation to make sure it fits on your menubar.
     fontawesome_icon_name                 : palette
 
   - title                                 : Automatic Downloads
-    description                           : Enjoy an uninterrupted experience with automatic downloads. Save on network and battery.
+    description                           : Enjoy an uninterrupted experience with automatic downloads of each song's lyrics. Save on network and battery.
     fontawesome_icon_name                 : heart
 
   - title                                 : Privacy-focused
@@ -72,7 +72,7 @@ topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#57B65F"
+cover_overlay_color                       : "#4C79A9"
 cover_overlay_transparency                : 0.7
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
