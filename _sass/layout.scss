@@ -39,7 +39,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 600px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -243,11 +243,11 @@ nav > ul li a:active {
 // App Title, Price, Description and Links
 
 .appInfo {
-	grid-area: i;
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 140px;
-	align-content: flex-start;
+    grid-area: i;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    padding-top: 30px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -277,7 +277,7 @@ nav > ul li a:active {
 	flex-direction: column;
 	align-items: start;
 	justify-content: center;
-	margin-left: 30px;
+	//margin-left: 30px;
 }
 
 .appName {
@@ -287,7 +287,7 @@ nav > ul li a:active {
 .appPrice {
 	color: $app-price-color;
 	font-weight: normal;
-	margin-top: 13px;
+	margin-top: 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -316,13 +316,14 @@ nav > ul li a:active {
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
-	margin-top: 45px;
+	margin-top: 30px;
 	flex: 0 1 auto;
 	line-height: 1.5;
 }
 
 .appDescription {
 	color: $app-description-color;
+	text-align: center;
 }
 
 @media only screen and (max-width: 992px) {
@@ -334,18 +335,21 @@ nav > ul li a:active {
 } 
 
 .downloadButtonsContainer {
-	display: inline-block;
+	display: flex;
 	margin-top: 42px;
 	filter: $drop-shadow;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 
-@media only screen and (max-width: 992px) {
+// @media only screen and (max-width: 992px) {
 
-	.downloadButtonsContainer {
-		text-align: center;
-	}
+// 	.downloadButtonsContainer {
+// 		text-align: center;
+// 	}
 	
-} 
+// } 
 
 .playStore {
 	height: 75px;
@@ -378,13 +382,13 @@ nav > ul li a:active {
 
 // iPhone Device Preview
 
-.iphonePreview {
-	grid-area: p;
-	//background-image: url($device-color);
-	background-size: 400px auto;
-	background-repeat: no-repeat;
-	margin-top: 0px;
-}
+// .iphonePreview {
+// 	grid-area: p;
+// 	//background-image: url($device-color);
+// 	background-size: 400px auto;
+// 	background-repeat: no-repeat;
+// 	margin-top: 0px;
+// }
 
 // .iphoneScreen {
 // 	width: 349px;
@@ -397,22 +401,22 @@ nav > ul li a:active {
 .videoContainer {
 	width: 604px;
 	height: 377px;
-	-webkit-clip-path: url(#screenMask);
-	clip-path: url(#screenMask);
 	margin-left: 26px;
-	margin-top: 23px;
+	margin-top: 40px;
 }
 
 .videoContainer > video {
 	width: 604px;
 	height: 377px;
+	border-radius: 20px; /* Adjust the radius as needed */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 @media only screen and (max-width: 1070px) {
 
-	.iphonePreview {
-		background-size: 370px auto;
-	}
+	// .iphonePreview {
+	// 	background-size: 370px auto;
+	// }
 
 	// .iphoneScreen {
 	// 	width: 322px;
@@ -421,29 +425,31 @@ nav > ul li a:active {
 	// }
 
 	.videoContainer {
-		width: 322px;
-		height: 698px;
+		width: 500px;
+		height: 312px;
 		margin-left: 24px;
-		margin-top: 22px;
+		margin-top: 60px;
+		justify-content: center;
+		background-position: center 0;
 	}
 	
 	.videoContainer > video {
-		width: 322px;
-		height: 698px;
+		width: 500px;
+		height: 312px;
 	}
 	
 } 
 
 @media only screen and (max-width: 992px) {
 
-	.iphonePreview {
-		display: flex;
-		background-size: 260px auto;
-		background-position: center 0;
-		margin-top: 47px;
-		justify-content: center;
-		padding-bottom: 75px;
-	}
+	// .iphonePreview {
+	// 	display: flex;
+	// 	background-size: 260px auto;
+	// 	background-position: center 0;
+	// 	margin-top: 47px;
+	// 	justify-content: center;
+	// 	padding-bottom: 75px;
+	// }
 
 	// .iphoneScreen {
 	// 	width: 226px;
@@ -455,15 +461,17 @@ nav > ul li a:active {
 	// }
 
 	.videoContainer {
-		width: 226px;
-		height: 488px;
+		width: 604px;
+		height: 377px;
 		margin-left: 0px;
 		margin-top: 17px;
+		justify-content: center;
+		background-position: center 0;
 	}
 
 	.videoContainer > video {
-		width: 226px;
-		height: 488px;
+		width: 604px;
+		height: 377px;
 	}
 	
 } 
