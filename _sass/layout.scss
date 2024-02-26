@@ -503,6 +503,9 @@ nav > ul li a:active {
 		margin-top: 100px;
 		margin-bottom: 50px;
 		justify-content: center;
+		grid-column: 2 / span 10; /* This will center the VideoContainer horizontally within the grid */
+		margin-left: auto; /* This will center the VideoContainer within its grid cell */
+		margin-right: auto;
 	}
 
 	.videoWrapper {
