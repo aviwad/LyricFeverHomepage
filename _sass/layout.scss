@@ -247,7 +247,8 @@ nav > ul li a:active {
     display: flex;
     flex-direction: column; /* Align items vertically */
     align-items: center; /* Center items horizontally */
-    padding-top: 30px;
+    padding-top: 100px;
+	margin-right: 26px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -402,7 +403,7 @@ nav > ul li a:active {
 	width: 604px;
 	height: 377px;
 	margin-left: 26px;
-	margin-top: 40px;
+	margin-top: 100px;
 }
 
 .videoContainer > video {
