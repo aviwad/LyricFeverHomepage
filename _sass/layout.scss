@@ -251,11 +251,23 @@ nav > ul li a:active {
 	margin-right: 26px;
 }
 
+@media only screen and (max-width: 1070px) {
+	.appInfo {
+		grid-area: i;
+		display: flex;
+		flex-direction: column; /* Align items vertically */
+		align-items: center; /* Center items horizontally */
+		padding-top: 80px;
+		margin-right: 80px;
+	}
+}
+
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
 		padding-top: 50px;
 		justify-content: center;
+		margin-right: 0px;
 	}
 
 } 
@@ -283,6 +295,7 @@ nav > ul li a:active {
 
 .appName {
 	color: $app-title-color;
+	text-align: center;
 }
 
 .appPrice {
@@ -428,8 +441,8 @@ nav > ul li a:active {
 	.videoContainer {
 		width: 500px;
 		height: 312px;
-		margin-left: 24px;
-		margin-top: 60px;
+		margin-left: 60px;
+		margin-top: 120px;
 		justify-content: center;
 		background-position: center 0;
 	}
@@ -462,17 +475,17 @@ nav > ul li a:active {
 	// }
 
 	.videoContainer {
-		width: 604px;
-		height: 377px;
+		width: 400px;
+		height: 250px;
 		margin-left: 0px;
-		margin-top: 17px;
+		margin-top: 100px;
+		margin-bottom: 50px;
 		justify-content: center;
-		background-position: center 0;
 	}
 
 	.videoContainer > video {
-		width: 604px;
-		height: 377px;
+		width: 400px;
+		height: 250px;
 	}
 	
 } 
