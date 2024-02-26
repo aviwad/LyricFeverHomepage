@@ -9,9 +9,21 @@
                 <div class="container">
                     {% include header.html %}
                     <div class="videoContainer">
-                        <video controls autoplay loop>
-                            <!-- Remove controls attribute to hide controls -->
-                        <source src="/assets/videos/lyricfeverad.mov" type="video/mp4"><source src="/assets/videos/lyricfeverad.webm" type="video/webm"><source src="/assets/videos/my-video.mp4" type="video/mp4"></video>
+                        <div class="videoWrapper">
+                            <video id="video" controls autoplay muted loop>
+                                <!-- Remove controls attribute to hide controls -->
+                            <source src="/assets/videos/lyricfeverad.mov" type="video/mp4"><source src="/assets/videos/lyricfeverad.webm" type="video/webm"><source src="/assets/videos/my-video.mp4" type="video/mp4"></video>
+                            <button id="unmuteButton" class="centeredButton">Click Here To Unmute</button>
+                            <script>
+                                const video = document.getElementById('video');
+                                const unmuteButton = document.getElementById('unmuteButton');
+                        
+                                unmuteButton.addEventListener('click', () => {
+                                    video.muted = false;
+                                    unmuteButton.style.display = 'none';
+                                });
+                            </script>
+                        </div>
                     </div>     
                     <div class="appInfo">
                         <div class="appIconShadow">
