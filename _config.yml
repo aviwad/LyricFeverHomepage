@@ -5,7 +5,7 @@ page_title                                : Lyric Fever                         
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://github.com/aviwad/SpotifyLyricsInMenubar/releases/download/v1.6/Lyric.Fever.app.zip                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://github.com/aviwad/SpotifyLyricsInMenubar/releases/download/v1.7/Lyric.Fever.1.7.dmg                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Lyric Fever                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Real-time Spotify Lyrics in the menubar.
+app_description                           : Real-time Apple Music & Spotify Lyrics in the menubar.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,12 +36,12 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Real-Time Spotify Lyrics
-    description                           : Stay in tune with your music, instantly view the lyrics of the currently playing song on Spotify right from your macOS menubar.
+  - title                                 : Real-Time Apple Music & Spotify Lyrics
+    description                           : Stay in tune with your music, instantly view the lyrics of the currently playing song on Spotify or Apple Music right from your macOS menubar.
     fontawesome_icon_name                 : music
     
   - title                                 : Seamless Integration
-    description                           : Automatically syncs with Spotify, so you never miss a beat or lyric.
+    description                           : Automatically syncs with Spotify and Apple Music, so you never miss a beat or lyric.
     fontawesome_icon_name                 : wifi
 
   - title                                 : Minimalist Design
