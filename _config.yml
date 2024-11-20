@@ -40,20 +40,20 @@ features                                  :
     description                           : Stay in tune with your music, instantly view the lyrics of the currently playing song on Spotify or Apple Music right from your macOS menubar.
     fontawesome_icon_name                 : music
     
-  - title                                 : Seamless Integration
-    description                           : Automatically syncs with Spotify and Apple Music, so you never miss a beat or lyric.
+  - title                                 : Fullscreen Mode
+    description                           : New fullscreen mode modeled after Apple Music.
     fontawesome_icon_name                 : wifi
 
-  - title                                 : Minimalist Design
-    description                           : Fits seamlessly into your macOS menubar without clutter, ensuring a distraction-free experience.
+  - title                                 : Translation
+    description                           : Automatically translates lyrics.
     fontawesome_icon_name                 : brush
 
-  - title                                 : Customizable Display Options
-    description                           : Adjust lyric truncation to make sure it fits on your menubar.
+  - title                                 : Karaoke Mode
+    description                           : A little lyric window that stays on top of all your other windows.
     fontawesome_icon_name                 : palette
 
   - title                                 : Automatic Downloads
-    description                           : Enjoy an uninterrupted experience with automatic downloads of each song's lyrics.
+    description                           : Automatically downloads lyrics from Spotify or LRCLIB (backup).
     fontawesome_icon_name                 : heart
 
   - title                                 : Privacy-focused
