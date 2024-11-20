@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Lyric Fever                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Apple Music & Spotify Lyrics for the macOS menubar.
+app_description                           : The best Apple Music & Spotify Lyrics experience for macOS.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,8 +36,8 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Real-Time Apple Music & Spotify Lyrics
-    description                           : Stay in tune with your music, instantly view the lyrics of the currently playing song on Spotify or Apple Music right from your macOS menubar.
+  - title                                 : Apple Music AND Spotify Support
+    description                           : Stay in tune with your music, instantly view the lyrics right from your macOS menubar.
     fontawesome_icon_name                 : music
     
   - title                                 : Fullscreen Mode
