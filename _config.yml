@@ -53,7 +53,7 @@ features                                  :
     fontawesome_icon_name                 : palette
 
   - title                                 : Automatic Downloads
-    description                           : Automatically downloads lyrics from Spotify or LRCLIB (backup).
+    description                           : Automatically downloads lyrics from Spotify, LRCLIB, and NetEase.
     fontawesome_icon_name                 : heart
 
   - title                                 : Privacy-focused
